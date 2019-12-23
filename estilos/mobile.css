@@ -1,0 +1,39 @@
+@media (max-width: 650px) {
+
+
+    .main_section h1{
+        font-size: 25px;
+    }
+
+    .main_section img{
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .portfolio .container{
+        width: inherit;
+    }
+
+    .portfolio h2{
+        width: inherit;
+    }
+
+    .project{
+        display: block;
+    }
+
+    .project_image_container{
+        text-align: center;
+    }
+
+    .experience{
+        margin: 10px auto;
+    }
+
+    .contact{
+        justify-content: center;
+    }
+
+}
+  

@@ -1,0 +1,246 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+ol{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+    color: #000000;
+    margin: 0;
+}
+
+h1 strong{
+    color: red;
+}
+
+.header h2{
+    color: red;
+}
+
+.header{
+    background-color: #cccccc;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    box-shadow: 2px 2px 10px #666;
+
+}
+
+.menu{
+    height: inherit;
+}
+
+ul, ol{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+figure{
+    margin: 0%;
+}
+
+.header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 5px;
+    border: solid 2px red;
+    border-radius: 4px;
+}
+
+.logo{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.logo h2{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 2px;
+}
+
+.main_section{
+    height: 300px;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_img{
+    object-fit: cover;
+}
+
+.portfolio{
+    background: #fafafa;
+    padding: 20px;
+}
+
+.portfolio h2,
+.h2{
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.h2{
+    margin-left: 20px;
+}
+
+.project{
+border-radius: 10px;
+margin-bottom: 15px;
+padding: 20px;
+background: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0px 0px 14px grey;
+
+}
+
+.project_tittle{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project_name,
+.project_date,
+.project_url{
+    margin: 10px 0;
+}
+
+.project_descriptions{
+    font-size: 18px;
+}
+
+.project_details{
+    width: 500px;
+}
+
+.project strong{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.experiencia{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience{
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #eaeff1;
+}
+
+.experience img{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.experience_details{
+    margin: 20px 40px;
+    margin-top: -40px;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.experience_description{
+    text-align: left;
+}
+
+.experience_link{
+    color: red;
+    border: solid 1px;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact{
+    color: #cccccc;
+    background-color: red;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.form_email input{
+    padding: 10px 20px 10px 25px;
+    border: solid gray;
+    border-radius: 5px;
+}
+
+.form_email button{
+    display: block;
+    background: transparent;
+    color: #cccccc;
+    padding: 10px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form_email h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer{
+    background: #cccccc;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    height: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+    box-shadow: inherit;
+}
